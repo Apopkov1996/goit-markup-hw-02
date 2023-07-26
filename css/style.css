@@ -5,7 +5,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 a {
@@ -69,11 +69,11 @@ a {
 }
 
 .navigation-panel > li > a:hover {
-  color: var(--body-text);
+  color: #404bbf;
 }
 
 .navigation-panel > li > a:focus {
-  color: var(--logo-brand);
+  color: #404bbf;
 }
 
 .contact-information > li > a {
@@ -100,12 +100,13 @@ a {
 
 .text-banner {
   color: #fff;
+  text-align: center;
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
+  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  text-align: center;
 }
 
 .order-service-button {
@@ -121,14 +122,14 @@ a {
 }
 
 .order-service-button :hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .order-service-button :focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
-.advantages > h2 {
+.advantages-header {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 36px;
