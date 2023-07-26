@@ -7,7 +7,7 @@ body {
 ul {
   list-style-type: none;
 }
- 
+
 a {
   text-decoration: none;
 }
@@ -54,7 +54,7 @@ a {
   text-transform: uppercase;
 }
 
-.navigation-panel li a {
+.navigation-panel > li > a {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 16px;
@@ -64,15 +64,15 @@ a {
   letter-spacing: 0.32px;
 }
 
-.navigation-panel li a:hover {
+.navigation-panel > li > a:hover {
   color: var(--body-text);
 }
 
-.navigation-panel li a:focus {
+.navigation-panel > li > a:focus {
   color: var(--logo-brand);
 }
 
-.contact-information li a {
+.contact-information > li > a {
   color: var(--logo-brand);
   font-family: Roboto;
   font-size: 16px;
@@ -82,11 +82,11 @@ a {
   letter-spacing: 0.32px;
 }
 
-.contact-information li a:hover {
+.contact-information > li > a:hover {
   color: turquoise;
 }
 
-.contact-information li a:focus {
+.contact-information > li > a:focus {
   color: yellowgreen;
 }
 
@@ -94,7 +94,7 @@ a {
   background: #2e2f42;
 }
 
-.banner h1 {
+.banner > h1 {
   color: #fff;
   font-family: Roboto;
   font-size: 56px;
@@ -103,7 +103,7 @@ a {
   letter-spacing: 1.12px;
 }
 
-h2 {
+.advantages > h2 {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 36px;
@@ -112,7 +112,7 @@ h2 {
   letter-spacing: 0.72px;
 }
 
-.advantages h3 {
+.advantages > h3 {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 20px;
@@ -122,7 +122,7 @@ h2 {
   letter-spacing: 0.4px;
 }
 
-.advantages p {
+.advantages > p {
   color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
@@ -135,11 +135,7 @@ h2 {
   background: var(--light-backgroung);
 }
 
-/* .our-team img,h3,p {
-  background: white;
-} */
-
-.our-team h3 {
+.our-team > h3 {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 20px;
@@ -149,7 +145,7 @@ h2 {
   letter-spacing: 0.4px;
 }
 
-.our-team p {
+.our-team > p {
   color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
@@ -194,7 +190,7 @@ h2 {
   color: yellowgreen;
 }
 
-.menu-portfoli h2 {
+.menu-portfoli > h2 {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 20px;
@@ -204,7 +200,7 @@ h2 {
   letter-spacing: 0.4px;
 }
 
-.menu-portfoli p {
+.menu-portfoli > p {
   color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
@@ -213,7 +209,7 @@ h2 {
   letter-spacing: 0.32px;
 }
 
-.logo-footer {
+.logo-web-footer {
   color: var(--light-backgroung);
   font-family: Raleway;
   font-size: 18px;
@@ -223,7 +219,7 @@ h2 {
   letter-spacing: 0.54px;
 }
 
-.footer p {
+.footer > p {
   color: var(--light-backgroung);
   font-family: Roboto;
   font-size: 16px;
