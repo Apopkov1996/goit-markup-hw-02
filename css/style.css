@@ -177,7 +177,23 @@ a {
   background: var(--light-backgroung);
 }
 
-.our-team > h3 {
+.header-our-team {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.li-our-team {
+  background-color: white;
+}
+
+.people-name {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 20px;
@@ -187,7 +203,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-.our-team > p {
+.people-position {
   color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
