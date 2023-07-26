@@ -64,6 +64,10 @@ a {
   letter-spacing: 0.32px;
 }
 
+.navigation-panel > .link {
+  text-decoration: none;
+}
+
 .navigation-panel > li > a:hover {
   color: var(--body-text);
 }
