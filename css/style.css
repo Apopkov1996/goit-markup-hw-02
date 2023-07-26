@@ -45,11 +45,11 @@ a {
 
 .logo-web {
   color: var(--text-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -211,12 +211,13 @@ a {
 
 .logo-web-footer {
   color: var(--light-backgroung);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.1666;
+  line-height: 1.17;
   letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .footer > p {
