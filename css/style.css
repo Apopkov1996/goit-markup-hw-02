@@ -58,7 +58,7 @@ a {
   text-transform: uppercase;
 }
 
-.nav-studio {
+.nav-link {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 16px;
@@ -68,31 +68,11 @@ a {
   letter-spacing: 0.32px;
 }
 
-.nav-portfolio {
-  color: var(--text-color);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.nav-contacts {
-  color: var(--text-color);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.navigation-panel > li > a:hover {
+.nav-link :hover {
   color: #404bbf;
 }
 
-.navigation-panel > li > a:focus {
+.nav-link :focus {
   color: #404bbf;
 }
 
@@ -100,7 +80,7 @@ a {
   font-style: normal;
 }
 
-.contact-information > li > a {
+.contact-link {
   color: var(--logo-brand);
   font-family: Roboto;
   font-size: 16px;
@@ -110,11 +90,11 @@ a {
   letter-spacing: 0.32px;
 }
 
-.contact-information > li > a:hover {
+.contact-link :hover {
   color: #404bbf;
 }
 
-.contact-information > li > a:focus {
+.contact-link :focus {
   color: #404bbf;
 }
 
