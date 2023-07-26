@@ -81,7 +81,7 @@ a {
 }
 
 .contact-information > li > a {
-  color: var(--logo-brand);
+  color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
