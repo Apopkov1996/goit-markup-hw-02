@@ -1,7 +1,7 @@
 body {
   background: white;
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--body-text);
 }
 
 ul {
@@ -33,6 +33,17 @@ a {
 }
 
 .logo {
+  color: var(--logo-brand);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-web {
   color: var(--text-color);
   font-family: Raleway;
   font-size: 18px;
@@ -40,16 +51,7 @@ a {
   font-weight: 800;
   line-height: 1.166;
   letter-spacing: 0.54px;
-}
-
-.logo-web {
-  color: var(--logo-brand);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.166;
-  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .navigation-panel li a {
@@ -78,7 +80,6 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  display: inline;
 }
 
 .contact-information li a:hover {
