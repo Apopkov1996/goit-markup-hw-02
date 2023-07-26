@@ -80,7 +80,7 @@ a {
   font-style: normal;
 }
 
-.contact-information li a {
+.contact-link {
   color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
@@ -90,11 +90,11 @@ a {
   letter-spacing: 0.32px;
 }
 
-.contact-information > li > a:hover {
+.contact-link :hover {
   color: #404bbf;
 }
 
-.contact-information > li > a:focus {
+.contact-link :focus {
   color: #404bbf;
 }
 
@@ -153,23 +153,24 @@ a {
 }
 
 .p-in-list {
-    color: var(--body-text);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-}
-
-
-.advantages > p {
   color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.heade-what-are-we-doing {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .our-team {
