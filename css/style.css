@@ -98,13 +98,34 @@ a {
   background: #2e2f42;
 }
 
-.banner > h1 {
+.text-banner {
   color: #fff;
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   line-height: 1.0714;
   letter-spacing: 1.12px;
+  text-align: center;
+}
+
+.order-service {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.order-service:hover {
+  color: #404BBF;
+}
+
+.order-service:focus {
+  color: #404BBF;
 }
 
 .advantages > h2 {
@@ -160,24 +181,6 @@ a {
 
 .footer {
   background: #2e2f42;
-}
-
-.order-service {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-}
-
-.order-service:hover {
-  color: turquoise;
-}
-
-.order-service:focus {
-  color: yellowgreen;
 }
 
 .footer {
