@@ -80,7 +80,7 @@ a {
   font-style: normal;
 }
 
-.contact-information > li > a {
+.contact-information li a {
   color: var(--body-text);
   font-family: Roboto;
   font-size: 16px;
@@ -140,6 +140,26 @@ a {
   font-style: normal;
   line-height: 1.11;
   letter-spacing: 0.72px;
+}
+
+.header-in-list {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.p-in-list {
+    color: var(--body-text);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
 }
 
 .advantages > h3 {
