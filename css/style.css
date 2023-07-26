@@ -58,7 +58,7 @@ a {
   text-transform: uppercase;
 }
 
-.nav-studio {
+.nav-link {
   color: var(--text-color);
   font-family: Roboto;
   font-size: 16px;
