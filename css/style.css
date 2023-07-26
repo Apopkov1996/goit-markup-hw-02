@@ -43,6 +43,10 @@ a {
   text-transform: uppercase;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo-web {
   color: var(--text-color);
   font-family: "Raleway", sans-serif;
@@ -62,10 +66,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-.navigation-panel > .link {
-  text-decoration: none;
 }
 
 .navigation-panel > li > a:hover {
