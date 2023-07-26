@@ -76,6 +76,10 @@ a {
   color: #404bbf;
 }
 
+.adress {
+    font-style: normal;
+}
+
 .contact-information > li > a {
   color: var(--logo-brand);
   font-family: Roboto;
