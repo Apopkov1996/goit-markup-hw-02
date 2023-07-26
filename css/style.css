@@ -83,11 +83,11 @@ a {
 }
 
 .contact-information > li > a:hover {
-  color: turquoise;
+  color: #404bbf;
 }
 
 .contact-information > li > a:focus {
-  color: yellowgreen;
+  color: #404bbf;
 }
 
 .banner {
