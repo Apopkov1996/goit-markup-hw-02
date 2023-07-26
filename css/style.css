@@ -222,7 +222,7 @@ a {
 }
 
 .logo-web-footer {
-  color: var(--light-backgroung);
+  color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -232,7 +232,7 @@ a {
   text-transform: uppercase;
 }
 
-.footer > p {
+.footer-p {
   color: var(--light-backgroung);
   font-family: Roboto;
   font-size: 16px;
