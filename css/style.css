@@ -1,0 +1,232 @@
+body {
+  background: white;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --logo-brand: #4d5ae5;
+}
+
+:root {
+  --text-color: #2e2f42;
+}
+
+:root {
+  --body-text: #434455;
+}
+
+:root {
+  --helper-text: #8e8f99;
+}
+
+:root {
+  --light-backgroung: #f4f4fd;
+}
+
+.logo {
+  color: var(--text-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.166;
+  letter-spacing: 0.54px;
+}
+
+.logo-web {
+  color: var(--logo-brand);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.166;
+  letter-spacing: 0.54px;
+}
+
+.navigation-panel li a {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.navigation-panel li a:hover {
+  color: var(--body-text);
+}
+
+.navigation-panel li a:focus {
+  color: var(--logo-brand);
+}
+
+.contact-information li a {
+  color: var(--logo-brand);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  display: inline;
+}
+
+.contact-information li a:hover {
+  color: turquoise;
+}
+
+.contact-information li a:focus {
+  color: yellowgreen;
+}
+
+.banner {
+  background: #2e2f42;
+}
+
+.banner h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  line-height: 1.0714;
+  letter-spacing: 1.12px;
+}
+
+h2 {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+}
+
+.advantages h3 {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.advantages p {
+  color: var(--body-text);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.our-team {
+  background: var(--light-backgroung);
+}
+
+/* .our-team img,h3,p {
+  background: white;
+} */
+
+.our-team h3 {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.our-team p {
+  color: var(--body-text);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.order-service {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.order-service:hover {
+  color: turquoise;
+}
+
+.order-service:focus {
+  color: yellowgreen;
+}
+
+.footer {
+  background: var(--text-color);
+}
+
+/* CSS Portfolio */
+
+.filters-portfolio button:hover {
+  color: turquoise;
+}
+
+.filters-portfolio button:focus {
+  color: yellowgreen;
+}
+
+.menu-portfoli h3 {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.menu-portfoli p {
+  color: var(--body-text);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.logo-footer {
+  color: var(--light-backgroung);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.1666;
+  letter-spacing: 0.54px;
+}
+
+.footer p {
+  color: var(--light-backgroung);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
