@@ -68,11 +68,11 @@ a {
   letter-spacing: 0.32px;
 }
 
-.navigation-panel > li > a:hover {
+.nav-link:hover {
   color: #404bbf;
 }
 
-.navigation-panel > li > a:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -90,11 +90,11 @@ a {
   letter-spacing: 0.32px;
 }
 
-.contact-link :hover {
+.contact-link:hover {
   color: #404bbf;
 }
 
-.contact-link :focus {
+.contact-link:focus {
   color: #404bbf;
 }
 
@@ -125,11 +125,11 @@ a {
   cursor: pointer;
 }
 
-.order-service-button :hover {
+.order-service-button:hover {
   background-color: #404bbf;
 }
 
-.order-service-button :focus {
+.order-service-button:focus {
   background-color: #404bbf;
 }
 
